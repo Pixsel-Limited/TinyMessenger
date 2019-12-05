@@ -10,6 +10,10 @@ Forked from:  https://github.com/grumpydev/TinyMessenger</Description>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>licence.txt</PackageLicenseFile>
     <Authors>Kenny Munro based on work by Stephen Robbins</Authors>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <PackageReleaseNotes>Added static default hub</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

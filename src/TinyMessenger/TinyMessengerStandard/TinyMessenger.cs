@@ -419,6 +419,18 @@ namespace TinyMessenger
     {
         readonly ISubscriberErrorHandler _SubscriberErrorHandler;
 
+        private static TinyMessengerHub defaultHub = null;
+        public static TinyMessengerHub DefaultHub { 
+            get
+            {
+                if (defaultHub == null)
+                {
+                    defaultHub = new TinyMessengerHub();
+                }
+                return defaultHub;
+            }
+        }
+
         #region ctor methods
 
         public TinyMessengerHub()
@@ -566,6 +578,7 @@ namespace TinyMessenger
 
         private readonly object _SubscriptionsPadlock = new object();
         private readonly List<SubscriptionItem> _Subscriptions = new List<SubscriptionItem>();
+
         #endregion
 
         #region Public API
