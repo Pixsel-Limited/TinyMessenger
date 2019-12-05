@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyMessenger", "TinyMessenger\TinyMessenger.csproj", "{DE0CA005-3B06-4751-9429-9671E7916492}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyMessenger.Tests", "TinyMessenger.Tests\TinyMessenger.Tests.csproj", "{40D73D7C-262F-40C9-86F4-15DCB55B2946}"
@@ -12,10 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyMessengerStandard", "TinyMessengerStandard\TinyMessengerStandard.csproj", "{C97FF27C-D7FC-4888-8C96-DE9538EEFD7A}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = TinyMessenger.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -29,8 +30,18 @@ Global
 		{40D73D7C-262F-40C9-86F4-15DCB55B2946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D73D7C-262F-40C9-86F4-15DCB55B2946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D73D7C-262F-40C9-86F4-15DCB55B2946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97FF27C-D7FC-4888-8C96-DE9538EEFD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97FF27C-D7FC-4888-8C96-DE9538EEFD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97FF27C-D7FC-4888-8C96-DE9538EEFD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97FF27C-D7FC-4888-8C96-DE9538EEFD7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDED0457-B9BF-4A57-A812-3ACC6899F8DB}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TinyMessenger.vsmdi
 	EndGlobalSection
 EndGlobal
