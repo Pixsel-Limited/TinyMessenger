@@ -13,7 +13,8 @@ Forked from:  https://github.com/grumpydev/TinyMessenger</Description>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <FileVersion>1.0.1.0</FileVersion>
     <PackageReleaseNotes>Added static default hub</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <PackageProjectUrl>https://github.com/Pixsel-Limited/TinyMessenger</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
